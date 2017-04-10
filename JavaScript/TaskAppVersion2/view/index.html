@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../Model/task.js"></script>
+    <script src="../Model/model.js"></script>
+    <script src="../Controller/controller.js"></script>
+</head>
+<body>
+   
+   <h1>Task Manager App</h1>
+   
+   
+       <table>
+           <tr>
+               <td><label for="taskName">Task Name</label></td>
+               <td><input type="text" placeholder="Enter task name" id="taskName"></td>
+           </tr>
+           <tr>
+               <td><label for="taskDesc">Task Description</label></td>
+               <td><textarea name="" id="taskDesc" cols="30" rows="10" ></textarea></td>
+           </tr>
+           <tr>
+              <td></td>
+               <td><button id="add">Add Task</button>
+               <button id="delete">Delete Task</button>
+               <button id="save">Save Task</button>
+               <button id="load">Load Task</button></td>
+           </tr>
+       </table>
+   
+   
+   <ul id="disp">
+       
+   </ul>
+    
+</body>
+</html>

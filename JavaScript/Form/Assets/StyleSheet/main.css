@@ -1,0 +1,80 @@
+h1 {  
+margin-left: 650px;
+}  
+form ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+}
+form li {    
+margin-bottom: 5px;  
+overflow: hidden;
+}  
+  
+form ul li label{    
+margin-right: 10px;  
+font-size:14px;  
+    width: 130px;
+    display: inline-block;
+}  
+  
+form ul li input, select {  
+margin-bottom: 10px;  
+    width: 200px;
+}  
+form input[type="text"], form input[type="password"] {
+    height: 25px;
+    border: none;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+#validation_3 {
+    position: absolute;
+    right: 22%;
+}
+form textarea {  
+width: 350px;  
+height: 150px;  
+}  
+  
+form input[type="submit"] {   
+margin: 20px 0 0 120px;  
+font-size:18px  
+}  
+  
+p {  
+margin-left: 70px;  
+font-weight: bold;  
+}  
+
+form {
+    position: absolute;
+    top: 200px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+	background-color: #d68;
+	margin:130px 0px 100px 0px;
+}
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:20px;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}

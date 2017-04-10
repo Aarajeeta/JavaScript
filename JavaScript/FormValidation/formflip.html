@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="FORMFLIP.CSS">
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript">
+
+    function login_flip()
+    {
+      $("#loginform").css({"-webkit-transition":"-webkit-transform 0.9s","transition":" transform 0.9s"});
+      $("#loginform").css({"-moz-transform":"scaleX(1)","-o-transform":"scaleX(1)","-webkit-transform":"scaleX(1)","transform":"scaleX(1)"});
+      $("#container").css("-webkit-transform","scaleX(1)");
+      document.getElementById("container").innerHTML="<p>User Id</p><input type='text'><p>Password</p><input type='password'><br><input type='submit' value='Login'><input type='button' value='Click For SignUp!' onclick='signup_flip();'>";
+    }
+
+    function signup_flip()
+    {
+      $("#loginform").css({"-webkit-transition":"-webkit-transform 0.9s","transition":" transform 0.9s"});
+      $("#loginform").css({"-moz-transform":"scaleX(-1)","-o-transform":"scaleX(-1)","-webkit-transform":"scaleX(-1)","transform":"scaleX(-1)"});
+      $("#container").css("-webkit-transform","scaleX(-1)");
+      document.getElementById("container").innerHTML="<p>User Name</p><input type='text'><p>Email Id</p><input type='text'><p>Password</p><input type='password'><br><input type='submit' value='SignUp'><input type='button' value='Click For Login!' onclick='login_flip();'>";
+    }
+	
+  </script>
+</head>
+
+<body>
+   <h1>Flip Animated Login and SignUp Form Using CSS3 and jQuery</h1>
+   <div id="wrapper">
+     <form id="loginform">
+       <div id="container">
+         <p>User Id</p>
+         <input type="text">
+         <p<Password</p>
+         <input type="password">
+         <br>
+         <input type="submit" value="Login">
+         <input type="button" value="Click For SignUp!" onclick="signup_flip();">		
+       </div>
+     </form>
+   </div>
+ </body>
+</html>

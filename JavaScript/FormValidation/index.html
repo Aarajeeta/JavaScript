@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   
+   <h1>Registration Form</h1>
+   
+   <form action="#">
+       
+       <table>
+           <tr>
+               <td><label for="uname">Name</label></td>
+               <td>
+                   <input type="text" placeholder="Enter Name" id="uname">
+                   <span id="name_error"></span>
+                   </td>
+           </tr>
+           <tr>
+               <td><label for="pwd">Password</label></td>
+               <td><input type="password" id="pwd" placeholder="Enter password" onkeyup="validation()">
+               <span id="pwd_error"></span><span id="strength"></span>
+               </td>
+           </tr>
+           <tr>
+               <td><label for="cpwd">Confirm Password</label></td>
+               <td><input type="password" id="cpwd" placeholder="Confirm Password" onchange="confirm_pwd()"><span id="confirm_pwd"></span></td>
+           </tr>
+           <tr>
+               <td></td>
+               <td><button type="submit" value="Submit">Register</button></td>
+           </tr>
+       </table>
+       
+   </form>
+    
+</body>
+</html>
