@@ -1,0 +1,183 @@
+body{
+    background: linear-gradient(to bottom right, white, #bcbdc4);
+    height: 800px;
+    margin: 0px;
+}
+#container {
+    overflow: hidden;
+}
+
+.headerx {
+    color: white;
+    z-index: 7;
+    font-family: sans-serif;
+/*    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);*/
+}
+
+.headerx {
+    background-color: midnightblue;
+    color: white;
+    z-index: 7;
+}
+h2{
+	font-size: 30px;
+    margin: 30;
+    padding: 30;
+    display: inline-block;
+    left: 30px;
+}
+/*
+#image1 {
+	left: 100px;
+    height: 50px;
+    width: 110px;
+    top: 25px;
+}
+*/
+.header #form1 {
+/*
+    z-index: 20;
+    float: right;
+*/
+/*  
+    margin: 30;
+    padding: 30;
+*/
+	left: 750px;
+    top: 20px;
+    height: 60px;
+    width: 180;
+    color: white;
+}
+
+.header #form2 {
+    color: white;
+	left: 950px;
+    top: 20px;
+    height: 60px;
+    width: 200px;
+    z-index: 10;
+    position: fixed;
+}
+
+.submit1 {
+	left: 1150px;
+    top: 39px;
+    background: darkblue;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    z-index: 20;
+    height: 25px;
+    width: 55px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.bodyx {
+	position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 0px;
+}
+#colmn1_1 {
+	top: 40px;
+    left: 100px;
+    height: 75px;
+    width: 550px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0e385f;
+}
+#colmn2 {
+	top: 40px;;
+    left: 750px;
+    height:60px ;
+    width: 500px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #333;
+}
+#image2 {
+	top: 130px;
+    left: 100px;
+    height: 250px;
+    width: 550px;
+}
+#colmn1_2 {
+	top: 100px;
+    left: 750px;
+    color: #1d2129;
+    font-size: 19px;
+    height: 50px;
+    width: 300px;
+    
+}
+
+#form3 {
+	top: 150px;
+    left: 750px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+    width: 450px;
+    height: 495px;
+}
+
+#name {
+	width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#mail {
+	width: 415px;
+    height: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    background: white;
+/*
+    height: 25px;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+    font-size: 25px;
+*/
+}
+
+.submit2 {
+	width: 200px;
+    height: 50px;
+    top: 625px;
+    left: 750px;
+    background: green;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    
+}
+
+.footer {
+	position: absolute;
+    left: 0px;
+    top: 750px;
+    width: 100%;
+    height: 90px;
+    background: white;
+    
+}
+#fixedfooter {
+	width: 1500px;
+    top: 15px;
+    left: 5px;
+    height: 60px;
+    color: #bcbdc4;
+}
